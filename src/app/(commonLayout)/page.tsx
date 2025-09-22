@@ -3,6 +3,7 @@ import ContactMe from "@/components/views/ContactMe";
 import MyEducation from "@/components/views/MyEducation";
 import MySkills from "@/components/views/MySkills";
 import HomePageProjects from "@/components/views/homepageProjects";
+import BlogPage from "./blog/page";
 
 export default async function Home() {
   return (
@@ -12,7 +13,7 @@ export default async function Home() {
       <MySkills />
       <MyEducation />
       <HomePageProjects/>
-
+      <BlogPage/>
       <ContactMe />
     </div>
   );
