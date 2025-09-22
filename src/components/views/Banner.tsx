@@ -14,7 +14,7 @@ const Banner = () => {
   }, []);
 
   return (
-    <section className="min-h-screen flex items-center justify-center bg-gray-900">
+    <section className="min-h-screen flex items-center justify-center bg-[#000022]">
       <div className="container mx-auto px-6 md:px-12 lg:px-20 py-16">
         <div className="flex flex-col-reverse lg:flex-row items-center justify-between gap-12">
           {/* Left Content */}
