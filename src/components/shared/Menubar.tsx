@@ -295,31 +295,31 @@ const Menubar = () => {
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center space-x-8">
           <div className="flex space-x-8 ">
-            {navLinks.map((link) => (
-              <Link key={link.path} href={link.path} className="group relative">
-                <span
-                  className={classNames(
-                    "font-medium text-sm tracking-wide transition-colors duration-300",
-                    pathname === link.path ? "text-green-400" : "text-gray-300 hover:text-white",
-                  )}
-                >
-                  {link.label}
-                </span>
-                <span
-                  className={classNames(
-                    "absolute -bottom-1 left-0 h-0.5 bg-green-400 transition-all duration-300 group-hover:w-full",
-                    pathname === link.path ? "w-full" : "w-0",
-                  )}
-                />
-              </Link>
-            ))}
+        {navLinks.map((link) => (
+  <Link key={link.path} href={link.path} className="group relative">
+    <span
+      className={classNames(
+        "font-medium text-xl tracking-wide transition-colors duration-300",
+        pathname === link.path ? "text-green-400" : "text-gray-300 hover:text-white",
+      )}
+    >
+      {link.label}
+    </span>
+    <span
+      className={classNames(
+        "absolute -bottom-1 left-0 h-0.5 bg-green-400 transition-all duration-300 group-hover:w-full",
+        pathname === link.path ? "w-full" : "w-0",
+      )}
+    />
+  </Link>
+))}
           </div>
 
           <Link
             href="https://drive.google.com/uc?export=download&id=1xg-IaIbevVHy-NZEPNk8odRc-uo04Ez9"
             className="ml-4"
           >
-            <button className="px-4 py-2 rounded-md bg-gradient-to-r from-green-500 to-blue-600 hover:from-green-600 hover:to-blue-700 text-white font-medium shadow-md hover:shadow-lg transition-all duration-300 flex items-center gap-2">
+            <button className="px-4 py-2 rounded-md bg-gradient-to-r from-green-500 to-blue-600 hover:from-green-600 hover:to-blue-700 text-white font-medium shadow-md hover:shadow-lg transition-all duration-300 flex text-xl items-center gap-2">
               Resume
               <svg
                 xmlns="http://www.w3.org/2000/svg"
