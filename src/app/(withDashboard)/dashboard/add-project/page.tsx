@@ -44,7 +44,7 @@ export default function AddBlog() {
       const image = data.image[0]; // Ensure this is correct
       const newFormData = new FormData();
       newFormData.append("file", image); // Add the image file
-      newFormData.append("upload_preset", "humayunkabir"); // Your upload preset
+      newFormData.append("upload_preset", "JUYEL"); // Your upload preset
       newFormData.append("cloud_name", "dn7oeugls"); // Not necessary for the request
 
       const response = await axios.post(
