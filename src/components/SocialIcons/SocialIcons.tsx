@@ -6,9 +6,9 @@ import { Github, Linkedin, Facebook } from "lucide-react"
 
 const SocialIcons = () => {
   const socialLinks = [
-    { icon: <Github size={20} />, url: "hhttps://github.com/HumayunKabirSobuj", label: "GitHub" },
-    { icon: <Linkedin size={20} />, url: "https://www.linkedin.com/in/devhumayun123", label: "LinkedIn" },
-    { icon: <Facebook size={20} />, url: "https://web.facebook.com/md.humayunkabirsobuj506034", label: "Facebook" },
+    { icon: <Github size={20} />, url: "https://github.com/juyel66/", label: "GitHub" },
+    { icon: <Linkedin size={20} />, url: "https://www.linkedin.com/in/md-juyel-rana/", label: "LinkedIn" },
+    { icon: <Facebook size={20} />, url: "https://www.facebook.com/juyel99730/", label: "Facebook" },
   ]
 
   return (

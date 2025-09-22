@@ -66,7 +66,7 @@ const ContactMe = () => {
               data-aos-delay="100"
             >
               <IoLogoWhatsapp className="text-xl text-[#64B5F6]" />
-              <p>+8801747477746</p>
+              <p>+8801747498166</p>
             </div>
 
             <div
@@ -78,14 +78,6 @@ const ContactMe = () => {
               <p>humayunkabir506034@gmail.com</p>
             </div>
 
-            <div
-              className="flex gap-2 items-center"
-              data-aos="zoom-in"
-              data-aos-delay="300"
-            >
-              <IoCall className="text-xl text-[#64B5F6]" />
-              <p>+8801747477746</p>
-            </div>
 
             <div
               className="flex gap-2 items-center"
@@ -93,7 +85,7 @@ const ContactMe = () => {
               data-aos-delay="400"
             >
               <FaLocationDot className="text-xl text-[#64B5F6]" />
-              <p>Zirabo, Ashulia, Savar, Dhaka</p>
+               <p>Warless Gate, Mohakhali, Dhaka-1212</p>
             </div>
 
             <div

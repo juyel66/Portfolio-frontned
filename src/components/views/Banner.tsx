@@ -32,7 +32,7 @@ const Banner = () => {
               data-aos-duration="1000"
               className="text-2xl md:text-3xl lg:text-4xl font-semibold"
             >
-              MD. HUMAYUN KABIR SOBUJ
+             MD. JUYEL RANA
             </h1>
 
             <h3
@@ -80,23 +80,22 @@ const Banner = () => {
           </div>
 
           {/* Right Content - Profile Image */}
-          <div
-            data-aos="fade-up"
-            data-aos-duration="1000"
-            className="w-full  flex-1 justify-center items-center"
-          >
-            <div className="text-center">
-              <div className="h-72 w-72 mx-auto mb-6 relative overflow-hidden rounded-full border-4 border-blue-500/30">
-                <Image
-                  src="/profile.jpg"
-                  alt="Humayun Kabir Sobuj"
-                  fill
-                  className="object-cover"
-                  priority
-                />
-              </div>
-            </div>
-          </div>
+     <div
+  data-aos="fade-up"
+  data-aos-duration="1000"
+  className="w-full flex-1 flex justify-center items-center"
+>
+  <div className="relative h-[400px] w-[400px] rounded-full border-4 border-blue-500/30 overflow-hidden">
+    <Image
+      src="/juyel.jpeg"
+      alt="JUYEL"
+      fill
+      className="object-cover"
+      priority
+    />
+  </div>
+</div>
+
         </div>
       </div>
     </div>

@@ -289,7 +289,7 @@ const Menubar = () => {
     >
       <div className="container mx-auto px-4 flex justify-between items-center">
         <Link href="/" className="text-2xl font-bold text-white hover:text-green-400 transition-colors duration-300">
-          <span className="bg-gradient-to-r from-green-400 to-blue-500 bg-clip-text text-transparent">HUMAYUN</span>
+          <span className="bg-gradient-to-r from-green-400 to-blue-500 bg-clip-text text-transparent">MD. JUYEL RANA</span>
         </Link>
 
         {/* Desktop Menu */}
