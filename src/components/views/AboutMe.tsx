@@ -1,6 +1,6 @@
 import React from "react";
 import SocialIcons from "../SocialIcons/SocialIcons";
-import profileImage from "../../../public/profile.jpg";
+import profileImage from "../../../public/juyel.jpeg";
 import Image from "next/image";
 const AboutMe = () => {
   return (
@@ -24,7 +24,7 @@ const AboutMe = () => {
                   <Image
                     className="rounded-full"
                     src={profileImage}
-                    alt="Humayun"
+                    alt="JUYEL"
                     height={600}
                     width={600}
                   />
@@ -32,7 +32,7 @@ const AboutMe = () => {
               </div>
               <div>
                 <h1 className="font-semibold text-center text-3xl">
-                  MD. HUMAYUN KABIR SOBUJ
+                  MD. JUYEL RANA
                 </h1>
                 <p className="font-medium text-center text-xl mt-4">
                   Web Developer
