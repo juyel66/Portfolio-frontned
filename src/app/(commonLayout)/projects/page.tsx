@@ -8,7 +8,7 @@ import Link from "next/link";
 import { FaExternalLinkSquareAlt } from "react-icons/fa";
 
 export const metadata: Metadata = {
-  title: "HUMAYUN | Projects",
+  title: "JUYEL | Projects",
 };
 
 const ProjectsPage = async () => {
