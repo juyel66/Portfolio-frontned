@@ -19,6 +19,8 @@ const BlogCard = ({ blog }: TBlogProp) => {
   const { _id, image, title } = blog
   const [isHovered, setIsHovered] = useState(false)
 
+
+
   return (
     <div
       className="w-full overflow-hidden rounded-xl bg-gray-800/50 shadow-lg transition-all duration-300 hover:bg-gray-800 hover:shadow-xl"
