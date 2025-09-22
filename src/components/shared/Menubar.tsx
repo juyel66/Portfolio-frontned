@@ -289,12 +289,12 @@ const Menubar = () => {
     >
       <div className="container mx-auto px-4 flex justify-between items-center">
         <Link href="/" className="text-2xl font-bold text-white hover:text-green-400 transition-colors duration-300">
-          <span className="bg-gradient-to-r from-green-400 to-blue-500 bg-clip-text text-transparent">MD. JUYEL RANA</span>
+          <span className="bg-gradient-to-r from-green-400 to-blue-500 bg-clip-text text-transparent text-3xl ">MD. JUYEL RANA</span>
         </Link>
 
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center space-x-8">
-          <div className="flex space-x-8">
+          <div className="flex space-x-8 ">
             {navLinks.map((link) => (
               <Link key={link.path} href={link.path} className="group relative">
                 <span
@@ -316,7 +316,7 @@ const Menubar = () => {
           </div>
 
           <Link
-            href="https://drive.google.com/uc?export=download&id=1JO2XZZ4wocv5SC5CtjYhSHVJ4DFSIDJo"
+            href="https://drive.google.com/uc?export=download&id=1xg-IaIbevVHy-NZEPNk8odRc-uo04Ez9"
             className="ml-4"
           >
             <button className="px-4 py-2 rounded-md bg-gradient-to-r from-green-500 to-blue-600 hover:from-green-600 hover:to-blue-700 text-white font-medium shadow-md hover:shadow-lg transition-all duration-300 flex items-center gap-2">
