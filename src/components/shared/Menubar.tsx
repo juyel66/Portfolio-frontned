@@ -284,7 +284,7 @@ const Menubar = () => {
     <nav
       className={classNames(
         "fixed w-full container mx-auto top-0 z-50 transition-all duration-300",
-        scrolled ? "bg-gray-900/95 backdrop-blur-md shadow-lg py-3" : "bg-[#000022] py-4",
+        scrolled ? "bg-[#000022]/95 backdrop-blur-md shadow-lg py-3" : "bg-[#000022] py-4",
       )}
     >
       <div className="container mx-auto px-4 flex justify-between items-center">
