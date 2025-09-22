@@ -75,7 +75,7 @@ const ContactMe = () => {
               data-aos-delay="200"
             >
               <FaEnvelope className="text-xl text-[#64B5F6]" />
-              <p>humayunkabir506034@gmail.com</p>
+              <p>mdjuyelrana.com.bd1@gmail.com</p>
             </div>
 
 

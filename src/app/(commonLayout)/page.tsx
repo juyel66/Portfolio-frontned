@@ -4,13 +4,13 @@ import MyEducation from "@/components/views/MyEducation";
 import MySkills from "@/components/views/MySkills";
 import HomePageProjects from "@/components/views/homepageProjects";
 import BlogPage from "./blog/page";
-import AboutMe from "@/components/views/AboutMe";
+// import AboutMe from "@/components/views/AboutMe";
 
 export default async function Home() {
   return (
     <div className="container mx-auto">
      <Banner />
-      <AboutMe />
+      {/* <AboutMe /> */}
       <MySkills />
       <MyEducation />
       <HomePageProjects/>

@@ -14,7 +14,7 @@ const Banner = () => {
   }, []);
 
   return (
-    <section className="min-h-screen flex items-center justify-center bg-[#000022]">
+    <section className="min-h-screen flex items-center justify-center relative z-20"> {/* Added z-20 to ensure content is above video */}
       <div className="container mx-auto px-6 md:px-12 lg:px-20 py-16">
         <div className="flex flex-col-reverse lg:flex-row items-center justify-between gap-12">
           {/* Left Content */}
@@ -91,15 +91,16 @@ const Banner = () => {
             </div>
           </div>
 
-          {/* Right Content - Profile Image */}
+          {/* Right Content - Profile Image (Updated) */}
           <div
             data-aos="fade-up"
             data-aos-duration="1000"
             className="flex-1 flex justify-center lg:justify-end"
           >
-            <div className="relative h-[320px] w-[320px] md:h-[400px] md:w-[400px] rounded-full border-4 border-blue-500/40 overflow-hidden shadow-xl shadow-blue-500/20">
+            {/* Removed rounded-full, adjusted dimensions for a larger, rectangular image */}
+            <div className="relative h-[330px] w-[300px] md:h-[400px] md:w-[350px] lg:h-[500px] lg:w-[400px] border-4 border-blue-500/40 overflow-hidden shadow-xl shadow-blue-500/20">
               <Image
-                src="/juyel.jpeg"
+                src="/juyelBannerimg.png"
                 alt="JUYEL"
                 fill
                 className="object-cover"
