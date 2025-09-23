@@ -91,7 +91,7 @@ export default function AddBlog() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-900">
+    <div className="min-h-screen bg-gray-900 ">
       <div className="flex flex-col lg:flex-row p-4 gap-4 h-screen">
         {/* Left Side - Profile Card */}
 

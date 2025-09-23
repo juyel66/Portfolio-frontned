@@ -36,7 +36,7 @@ const BlogPage = async () => {
 
       {/* Blog Cards Grid */}
       {/* Centering the grid within the full width container, using gap-6 for more space */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center"> {/* Changed gap and added justify-items-center */}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center lg:mb-10 mb-5"> {/* Changed gap and added justify-items-center */}
         {blogData?.map((blog: TBlog) => (
           <BlogCard key={blog._id} blog={blog} />
         ))}

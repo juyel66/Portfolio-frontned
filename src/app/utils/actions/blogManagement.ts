@@ -21,6 +21,11 @@ export const getAllBlog = async () => {
     cache: "no-store",
   });
 
+  
+
+
+
+
   return res.json();
 };
 
