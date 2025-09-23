@@ -9,6 +9,26 @@ Live :
 ```
 https://humayun-portfolio-and-blog-website.vercel.app
 ```
+```
+dot env
+ROBOT_ANIMATION=https://prod.spline.design/zOIR40BvMwUy6R6G/scene.splinecode
+GITHUB_ID=Ov23liXnWYfi1KXhvx8m
+GITHUB_SECRET=13e6a6ff96086f6c7236a1a633ccf2965a240cbf
+GOOGLE_CLIENT_ID=864618905161-lngmf5alumrg1oo937uojpbqefgo59ko.    apps.googleusercontent.com
+GOOGLE_CLIENT_SECRET=GOCSPX-035yJBB2B3E   Zhlf8SuuT7I8RmSE8
+NEXTAUTH_SECRET=abc
+# BACKEND_URL=http://localhost:8080/api
+NEXT_PUBLIC_BACKEND_URL=http://localhost:8080/api
+BACKEND_URL=https://humayun506034-backend.vercel.app/apiROBOT_ANIMATION=https://prod.spline.design/zOIR40BvMwUy6R6G/scene.splinecode
+GITHUB_ID=Ov23liXnWYfi1KXhvx8m
+GITHUB_SECRET=13e6a6ff96086f6c7236a1a633ccf2965a240cbf
+GOOGLE_CLIENT_ID=864618905161-lngmf5alumrg1oo937uojpbqefgo59ko.apps.googleus      ercontent.com
+GOOGLE_CLIENT_SECRET=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
+NEXTAUTH_SECRET=abc
+# BACKEND_URL=http://localhost:8080/api
+NEXT_PUBLIC_BACKEND_URL=http://localhost:8080/api
+BACKEND_URL=http://localhost:8080/api
+```
 
 # 🔹 Features
 
