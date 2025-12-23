@@ -2,7 +2,7 @@
 
 export const addProject = async (data: Record<string, unknown>) => {
   // console.log("function =>", data);
-  const res = await fetch(`https://blog-and-portfilio-backend.vercel.app/api/projects/add-project`, {
+  const res = await fetch(`http://localhost:5000/api/projects/add-project`, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
@@ -33,6 +33,7 @@ export const DeleteProject = async (data: Record<string, unknown>) => {
       "Content-Type": "application/json",
     },
     body: JSON.stringify(data),
+    
     cache: "no-store",
   });
   const projectInfo = await res.json();

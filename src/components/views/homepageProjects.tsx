@@ -14,7 +14,7 @@ const HomePageProjects = async () => {
 //   console.log({ projects });
 
   const threeProjects = projects?.data?.slice(0, 3);
-//   console.log({threeProjects});
+  console.log("threeProjects", threeProjects);
 
   return (
     <div className="container mx-auto px-4 py-8">
